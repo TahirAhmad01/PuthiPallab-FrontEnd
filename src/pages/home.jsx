@@ -1,13 +1,13 @@
-import Header from "../components/Header"
-import Sidebar from "../components/Sidebar"
+import Header from "../components/Header";
+import Sidebar from "../components/Sidebar";
 
 const Home = () => {
   return (
     <div className="flex">
-        <Sidebar />
-        <Header />
+      <Sidebar />
+      <Header />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

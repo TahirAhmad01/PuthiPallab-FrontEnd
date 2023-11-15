@@ -8,6 +8,8 @@ import {
   MagnifyingGlass,
   TwitterLogo,
 } from "phosphor-react";
+import DashboardCard from "./DashboardCard";
+import DashboardChart from "./DashboardChart";
 
 const Header = () => {
   return (
@@ -80,6 +82,33 @@ const Header = () => {
           </Navbar.Collapse>
         </Navbar.Container>
       </Navbar>
+      {/* dashboard card */}
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-10 gap-10">
+        <DashboardCard
+          header="Total Projects"
+          totalWork="10,720"
+          desc="Lorem ipsum dolor sit amet."
+        />
+        <DashboardCard
+          header="Total Projects"
+          totalWork="10,720"
+          desc="Lorem ipsum dolor sit amet."
+        />
+        <DashboardCard
+          header="Total Projects"
+          totalWork="10,720"
+          desc="Lorem ipsum dolor sit amet."
+        />
+        <DashboardCard
+          header="Total Projects"
+          totalWork="10,720"
+          desc="Lorem ipsum dolor sit amet."
+        />
+       
+      </div>
+      <div className="p-10">
+        <DashboardChart />
+      </div>
     </div>
   );
 };
