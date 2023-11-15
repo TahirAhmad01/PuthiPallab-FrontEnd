@@ -1,8 +1,11 @@
-
+import Home from "./pages/home";
+import "boxicons";
 const App = () => {
   return (
-    <div className="bg-slate-400 text-center">Library Management Application with React JS</div>
-  )
-}
+    <>
+      <Home />
+    </>
+  );
+};
 
-export default App
+export default App;
