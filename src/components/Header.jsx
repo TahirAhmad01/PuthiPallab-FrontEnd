@@ -52,13 +52,13 @@ const Header = () => {
                 iconAnimation={false}
               />
             </Navbar.Container>
-            <Navbar.Container className="flex gap-1">
+            <Navbar.Container className="flex gap-1  md:hidden">
               <Navbar.Toggle className="block" />
             </Navbar.Container>
           </Navbar.Container>
           <Navbar.Collapse
             collapseType="sidebar"
-            className="fixed right-0 top-0 bg-white p-10 lg:!w-2/6 xl:!w-1/6 md:!w-2/6 w-1/2"
+            className="fixed right-0 top-0 bg-white p-10 lg:!w-2/6 xl:!w-1/6 md:!w-2/6 w-1/2 md:hidden"
           >
             <Navbar.Container tag="ul" className="flex flex-col gap-5">
               <Navbar.Link

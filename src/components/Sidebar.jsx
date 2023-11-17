@@ -1,6 +1,6 @@
 const Sidebar = () => {
   return (
-    <div className="bg-white w-[300px] min-h-screen p-5">
+    <div className="bg-white md:w-[300px] min-h-screen p-5 hidden md:block">
       <div className="flex items-center gap-5">
         <img
           className="w-16 h-16 rounded-full object-cover"
