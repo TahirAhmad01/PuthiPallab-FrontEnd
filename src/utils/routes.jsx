@@ -12,6 +12,7 @@ const routes = createBrowserRouter([
         path: "/",
         element: <App />,
       },
+
       // students dashboard routes
       {
         path: "/student/login",
@@ -21,6 +22,7 @@ const routes = createBrowserRouter([
         path: "/student/dashboard",
         element: <StudentDashboard />,
       },
+
       // librarian dashboard routes
       {
         path: "/librarian/login",
