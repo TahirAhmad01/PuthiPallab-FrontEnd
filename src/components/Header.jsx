@@ -13,8 +13,8 @@ import DashboardChart from "./DashboardChart";
 
 const Header = () => {
   return (
-    <div className="bg-gray-100 w-full min-h-screen">
-      <Navbar fluid={true}>
+    <div className="bg-gray-50 w-full min-h-screen">
+      <Navbar fluid={true} className="bg-gray-50">
         <Navbar.Container className="flex items-center justify-between">
           <Navbar.Brand>
             <Image
@@ -104,7 +104,6 @@ const Header = () => {
           totalWork="10,720"
           desc="Lorem ipsum dolor sit amet."
         />
-       
       </div>
       <div className="p-10">
         <DashboardChart />

@@ -1,13 +1,24 @@
-import Header from "../components/Header";
-import Sidebar from "../components/Sidebar";
+import { Button } from "keep-react";
+import { Link } from "react-router-dom";
 
-const Home = () => {
+function Home() {
   return (
-    <div className="flex">
-      <Sidebar />
-      <Header />
+    <div>
+      This is home page
+      <div className="flex gap-4">
+        <Link to="/student/login">
+          <Button size="sm" type="primary">
+            Student portal
+          </Button>
+        </Link>
+        <Link to="/librarian/login">
+          <Button size="sm" type="primary">
+            Librarian portal
+          </Button>
+        </Link>
+      </div>
     </div>
   );
-};
+}
 
 export default Home;
