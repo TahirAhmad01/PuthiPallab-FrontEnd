@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Login from "../pages/student/Login";
 import Dashboard from "../pages/student/dashboard";
-// import Dashboard from "../pages/Dashboard";
 
 const routes = createBrowserRouter([
   {
