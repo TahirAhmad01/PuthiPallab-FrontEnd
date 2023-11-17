@@ -1,10 +1,10 @@
 import Home from "./pages/home";
-import "boxicons";
+
 const App = () => {
   return (
-    <>
+    <div>
       <Home />
-    </>
+    </div>
   );
 };
 
