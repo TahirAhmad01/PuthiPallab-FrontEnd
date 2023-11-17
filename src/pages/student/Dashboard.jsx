@@ -1,14 +1,13 @@
+import Sidebar from "../../components/Sidebar";
+import Header from "./../../components/Header";
 
-import Sidebar from '../../components/Sidebar';
-import Header from './../../components/Header';
-
-function Dashboard() {
+function StudentDashboard() {
   return (
-      <div className="flex">
-        <Sidebar />
-        <Header />
-      </div>
+    <div className="flex">
+      <Sidebar />
+      <Header />
+    </div>
   );
 }
 
-export default Dashboard;
+export default StudentDashboard;

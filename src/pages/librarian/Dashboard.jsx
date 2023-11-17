@@ -2,7 +2,8 @@
 import Header from "./../../components/Header";
 import Sidebar from './../../components/Sidebar';
 
-function Dashboard() {
+
+function LibrarianDashboard() {
   return (
       <div className="flex">
         <Sidebar />
@@ -11,4 +12,5 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+
+export default LibrarianDashboard;

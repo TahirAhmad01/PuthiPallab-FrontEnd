@@ -1,7 +1,7 @@
 import { Button } from "keep-react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-function Login() {
+function StudentLogin() {
   return (
     <div>
       <div>This is student login page</div>
@@ -14,4 +14,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default StudentLogin;

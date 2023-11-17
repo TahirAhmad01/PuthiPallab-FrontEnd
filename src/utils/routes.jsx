@@ -1,8 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
-import Login from "../pages/student/Login";
-import Dashboard from "../pages/student/dashboard";
-// import Dashboard from "../pages/Dashboard";
+import App from "./../App";
+import StudentDashboard from "../pages/student/DashboardChartashboard";
+import LibrarianLogin from "../pages/librarian/Login";
+import LibrarianDashboard from "./../pages/librarian/Dashboard";
+import StudentLogin from "./../pages/student/Login";
 
 const routes = createBrowserRouter([
   {
@@ -14,20 +15,20 @@ const routes = createBrowserRouter([
       // students dashboard routes
       {
         path: "/student/login",
-        element: <Login />,
+        element: <StudentLogin />,
       },
       {
         path: "/student/dashboard",
-        element: <Dashboard />,
+        element: <StudentDashboard />,
       },
       // librarian dashboard routes
       {
         path: "/librarian/login",
-        element: <Login />,
+        element: <LibrarianLogin />,
       },
       {
         path: "/librarian/dashboard",
-        element: <Dashboard />,
+        element: <LibrarianDashboard />,
       },
     ],
   },
