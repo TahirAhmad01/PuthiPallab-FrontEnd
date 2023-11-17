@@ -14,4 +14,4 @@ function StudentLogin() {
   );
 }
 
-export default StudentLogin;
+export default StudentLogin

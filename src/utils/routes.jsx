@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./../App";
-import StudentDashboard from "../pages/student/DashboardChartashboard";
 import LibrarianLogin from "../pages/librarian/Login";
 import LibrarianDashboard from "./../pages/librarian/Dashboard";
 import StudentLogin from "./../pages/student/Login";
+import StudentDashboard from "../pages/student/Dashboard";
 
 const routes = createBrowserRouter([
   {
