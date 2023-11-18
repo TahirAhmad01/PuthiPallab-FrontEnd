@@ -2,8 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "./../App";
 import LibrarianLogin from "../pages/librarian/Login";
 import LibrarianDashboard from "./../pages/librarian/Dashboard";
-import StudentLogin from "./../pages/student/Login";
-import StudentDashboard from "../pages/student/Dashboard";
+import StudentLogin from "./../pages/member/Login";
+import StudentDashboard from "../pages/member/Dashboard";
+import MemberRegister from "../pages/member/Register";
 
 const routes = createBrowserRouter([
   {
@@ -15,11 +16,15 @@ const routes = createBrowserRouter([
 
       // students dashboard routes
       {
-        path: "/student/login",
+        path: "/member/login",
         element: <StudentLogin />,
       },
       {
-        path: "/student/dashboard",
+        path: "/member/register",
+        element: <MemberRegister />,
+      },
+      {
+        path: "/member/dashboard",
         element: <StudentDashboard />,
       },
 

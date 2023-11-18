@@ -6,7 +6,7 @@ function Home() {
     <div>
       This is home page
       <div className="flex gap-4">
-        <Link to="/student/login">
+        <Link to="/member/login">
           <Button size="sm" type="primary">
             Student portal
           </Button>
