@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 const Sidebar = () => {
   return (
     <div className="bg-white md:w-[300px] min-h-screen p-5 hidden md:block">
@@ -42,7 +43,9 @@ const Sidebar = () => {
         </div>
         <div className="flex gap-2 px-2  py-3  rounded-lg hover:bg-gray-200 cursor-pointer ">
           <box-icon type="solid" name="dashboard"></box-icon>
-          <span>LogOut </span>
+          <Link to="/librarian/login">
+            <span>LogOut </span>
+          </Link>
         </div>
       </div>
     </div>
